@@ -12,6 +12,8 @@ import preloader from './modules/preloader';
 
 const dynamicPath = __dynamicPath__;
 
+// Animate
+LazyLoad.css('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css');
 
 LazyLoad.js(`${dynamicPath}js/separate-js/svg4everybody.min.js`, () => {
     // eslint-disable-next-line no-undef
