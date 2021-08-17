@@ -29,7 +29,7 @@ let plugins = [
     'process.env': {
       NODE_ENV: JSON.stringify(process.env.NODE_ENV)
     },
-    __dynamicPath__: !compressJs ? "'/static/'" : "'/local/styles/'" // /local/styles/ * ./static/
+    __dynamicPath__: !compressJs ? "'/static/'" : "'./static/'" // /local/styles/ * ./static/
   })
 ];
 let minimizers = [];

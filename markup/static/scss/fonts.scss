@@ -8,7 +8,7 @@
     src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Custom-Font.woff') format('woff'),
          url('../fonts/Custom-Font.svg#custom_font') format('svg');
-    font-weight: 400;       // For normal width. It could has another value   
+    font-weight: 400;       // For normal width. It could has another value
     font-style: normal;     // Also could has another value
     }
 
@@ -16,3 +16,49 @@
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+
+/* Your custom fonts here */
+
+/* Example
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/Custom-Font.eot');
+    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Custom-Font.woff') format('woff'),
+         url('../fonts/Custom-Font.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+    }
+
+
+// Var for using custom font
+$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
+*/
+
+@font-face {
+    font-family: 'ClearSans';
+    src: url('../fonts/ClearSans/ClearSans.eot');
+    src: url('../fonts/ClearSans/ClearSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearSans/ClearSans.woff2') format('woff2'),
+    url('../fonts/ClearSans/ClearSans.woff') format('woff'),
+    url('../fonts/ClearSans/ClearSans.ttf')  format('truetype'),
+    url('../fonts/ClearSans/ClearSans.svg#svgFontName') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ClearSans';
+    src: url('../fonts/ClearSans/ClearSans-Bold.eot');
+    src: url('../fonts/ClearSans/ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearSans/ClearSans-Bold.woff2') format('woff2'),
+    url('../fonts/ClearSans/ClearSans-Bold.woff') format('woff'),
+    url('../fonts/ClearSans/ClearSans-Bold.ttf')  format('truetype'),
+    url('../fonts/ClearSans/ClearSans-Bold.svg#svgFontName') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
