@@ -1,0 +1,10 @@
+.page__footer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
