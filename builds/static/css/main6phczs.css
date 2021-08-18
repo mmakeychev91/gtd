@@ -545,7 +545,8 @@ body {
 }
 
 footer {
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
   max-width: 100%;
 }
 
@@ -573,6 +574,7 @@ footer {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
+  margin: 0 auto;
 }
 
 .square {
