@@ -1,0 +1,39 @@
+.img {
+    height: 100%;
+    object-fit: cover;
+
+}
+.img-wrap {
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1395px;
+    min-width: 360px;
+}
+body {
+    background-color: #999999;
+}
+.hide {
+    display: none !important;
+}
+.square {
+    &--active {
+        background-color: #cccccc !important;
+        span {
+            color: black !important;
+        }
+    }
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    overflow-x: scroll;
+    max-width: 100%;
+}

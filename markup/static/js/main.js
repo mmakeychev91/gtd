@@ -26,6 +26,19 @@ if ($('img.lazy').length) {
     });
 }
 
+var body = $('body');
+body.on('click', '.square', function () {
+    var tabBlock = $(this).attr('data-tab');
+    var tabBtn = $(this);
+    $('.tabcontent').addClass('hide');
+    if ($(tabBlock).hasClass('hide')) {
+        $(tabBlock).removeClass('hide');
+    }
+    $('.square').removeClass('square--active');
+    tabBtn.addClass('square--active');
+})
+
+
 
 $(window).on('load', function () {
     preloader();

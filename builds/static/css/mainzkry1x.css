@@ -491,6 +491,64 @@ html, body {
   height: 100%;
 }
 
+.img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img-wrap {
+  height: 700px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  max-width: 1395px;
+  min-width: 360px;
+}
+
+body {
+  background-color: #999999;
+}
+
+.hide {
+  display: none !important;
+}
+
+.square--active {
+  background-color: #cccccc !important;
+}
+
+.square--active span {
+  color: black !important;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  overflow-x: scroll;
+  max-width: 100%;
+}
+
 .page__footer {
   grid-row-start: 3;
   grid-row-end: 4;
@@ -512,6 +570,9 @@ html, body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 .square {
@@ -557,7 +618,7 @@ html, body {
 }
 
 .square:last-child {
-  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .container {
